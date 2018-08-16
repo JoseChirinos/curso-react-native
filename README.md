@@ -94,7 +94,12 @@ React Bridge. “Convierte” el código js a código nativo.
   Para crear un nuevo proyecto se escribe los siguiente:
 
   ```sh
-    react-native init nombreDelProyecto
+    react-native init myprojectname
+  ```
+
+  Para crear el proyecto con una versión especifica:
+  ```sh
+    react-native init --version="0.55.4" myprojectname
   ```
 
 <div align="right">
@@ -108,6 +113,11 @@ React Bridge. “Convierte” el código js a código nativo.
   1. Realizar shake (Mover el celular izquierda a derecha).
 
   2. Elegir la opción de `Enable Hot Reload`
+
+  <div align="center">
+    <img src="static/opciones.jpg">
+    <small><p>Opciones</p></small>
+  </div>
 
   3. Listo.
 
@@ -128,6 +138,11 @@ React Bridge. “Convierte” el código js a código nativo.
   Este comando abrira un menu de desarrollador de ReactNative.
 
   3. Elegimos la opción `Enable Hot Reloading`
+
+  <div align="center">
+    <img src="static/opciones.jpg">
+    <small><p>Opciones</p></small>
+  </div>
 
   4. Reconectamos al servicio, escribiendo en consola:
 
