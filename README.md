@@ -115,7 +115,7 @@ React Bridge. “Convierte” el código js a código nativo.
   2. Elegir la opción de `Enable Hot Reload`
 
   <div align="center">
-    <img src="static/opciones.jpg">
+    <img src="static/opciones-min.jpg">
     <small><p>Opciones</p></small>
   </div>
 
@@ -140,7 +140,7 @@ React Bridge. “Convierte” el código js a código nativo.
   3. Elegimos la opción `Enable Hot Reloading`
 
   <div align="center">
-    <img src="static/opciones.jpg">
+    <img src="static/opciones-min.jpg">
     <small><p>Opciones</p></small>
   </div>
 
