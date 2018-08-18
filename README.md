@@ -19,6 +19,10 @@
 
   - [Setear distintos Estilos](#setear-distintos-estilos)
 
+  - [Soporte iPhone X](#soporte-iphone-x)
+
+  - [Estilos para imagenes en RN](#estilos-para-imagenes-en-rn)
+
 ## Introducción
 
 `(*)` El componente `View` de native funciona como un div mientras que el componente `Text` funciona como un párrafo.
@@ -215,6 +219,44 @@ React Bridge. “Convierte” el código js a código nativo.
     android: 'blue',
   }),
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
+## Soporte iPhone X
+
+#### SafeAreaView
+  Renderiza el contenido en un area segura para que el contenido
+  se vea bien en todos los dispositivos principalmente los que tienen un notch.
+  ```js
+    <SafeAreaView>
+      <Text>
+        Ahora funciona en iPhoneX
+      </Text>
+    </SafeAreaView>
+  ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
+## Estilos para imagenes en RN
+  Se llama resizeMode que sería similar a background-size de css.
+  
+  **resizeMode** por Default esta en cover, otras opciones son:
+  
+  - contain
+  - stretch
+  - repeat
+  - center.
+
+  El padding en RN funciona un poco diferente ya que se le puede dar un padding general (top, right, bottom, left), pero si se quiere hacer solamente para right & left se tiene que hacer a mano. Para estos casos se agregan 2 opciones para utilizar:
+
+- **paddingVertical:** esto sería lo equivalente a utilizar (_paddingTop _y paddingBottom)
+
+- **paddingHorizontal:** esto sería lo equivalente a utilizar (_paddingRight _y paddingLeft)
+
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
